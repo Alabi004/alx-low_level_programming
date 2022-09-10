@@ -1,31 +1,13 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
+ * main - print the string in the put function
  *
- * Reture: Always 0 (Success/correct)
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle"
+ * Return: 0
  */
-int main(void)
-
 {
-char alphabet;
-
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-
-	if (alphabet == 'q')
-	      continue;
-
-	else if (alphabet == 'e')
-	      continue;
-
-	putchar (alphabet);
+	puts("\"Programming is like buiding a multilingual puzzle");
+	return (0);
 }
-putchar ('\n');
-
-return (0);
-}
-
-
-
-
- 
