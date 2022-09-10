@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Reture: Always 0 (Success/correct)
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
 
@@ -16,8 +15,7 @@ int main(void)
 		printf("%i", i);
 	}
 
-	printf('\n');
+	printf("\n");
 
-		return (0)
-
+		return (0);
 }
