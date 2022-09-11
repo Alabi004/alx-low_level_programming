@@ -1,37 +1,35 @@
 #include <stdio.h>
-
 /**
- * main - Prints 3 combination of numbers
+ * main -Entry point
  *
- * Return: Always 0 (Success)
+ * codes for printing all possible combination of two d/t digits
+ * in ascending order and separated by a comma followed by a space
+ *
+ * Return: 0 Success
  */
 int main(void)
 {
-	int c, i, k;
+	int digit1, digit2; digit2;
 
-	for (c = '0'; c <= '9'; c++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (i= '0'; i <= '9'; i++)
+		for (digit2 = digit1 +1; digit2 < 10; digit2++)
 		{
-			for (k = '0'; k <= '9'; k++)
+			for (digit3 = digit2 +1; digit3 < 10; digit3++)
 			{
-				if (c < i && i < K)
-				{
-					putchar(c);
-					putchar(i);
-					putchar(K);
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
 
-					if (c != '7')
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+				      continue;
+
+				putchar(',');
+				putchar (' ');
 			}
 		}
 	}
-
 	putchar('\n');
 
-	return(0);
+	return (0);
 }
