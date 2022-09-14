@@ -1,8 +1,7 @@
-#include "main.h"
 /**
  * print_sign - function that prints the sign of a number
  * @n: input letter
- * Return: Always success
+ * Return: Always successs
  */
 int print_sign(int n)
 {
@@ -17,7 +16,7 @@ return (1);
 else if (n == 0)
 {
 
--putchar('o');
+_putchar('o');
 return (0);
 }
 
