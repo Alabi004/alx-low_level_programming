@@ -1,1 +1,24 @@
-VimCrypt~03!¸^”-`Éì¡İ"n¦ª–}ÒˆKPná~ñydğÎwq;Æ¦_°½aã5§NK˜¿äªp*´’r|ş×ëíÇjıˆç9éQş±C»ÑCD/9ù¤êòfF!µdü8¥Í˜é…6uƒ’ËÌ$o4œ“¡çÆÑ8Ë*¤WŒ¹î÷J5î¬‚nŸØ›±ûõò]Üß9Eøœc“/M"_(L±5èj¾Àq†zÃ­Í RïÀ 65:Š~4¨Š£BcâØÏú¡0Ò¨†È—Ş’®f–ÓÚº™L=yc¿LE&í«ÆrC¿QF®^ˆí„[#ç—IªígÁKÔ·±2¿¾¦ÛS˜FWMt©ä‘ÙjsSi.™ùÅ,Uûê¬úşcRbÒà!ƒ©5B9xà£D³í2&î½Éˆ Iš&4áÈ»¼9F*68y˜)OÖÏ2&Å•¹ıƒì'õÂ5Ó ÙÎØtù:^ .O
+#ifndef MAIN_H
+#define MAIN_H
+
+/**
+ *main - header file for prototypes
+ *void prototypes (void)
+ *int prototypes (int)
+ */
+
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
+int _putchar(char);
+int _isupper(int);
+int _isdigit(int);
+int mul(int, int);
+
+#endif /* MAIN_H */
+
