@@ -2,8 +2,8 @@
 #define MAIN_H
 
 /**
- *  prototypes files
- *  import form here
+ * prototypes files
+ * import form here
  */
 
 int _putchar(char c);
@@ -20,3 +20,4 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
 #endif
+
