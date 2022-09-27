@@ -1,3 +1,10 @@
+/*
+ * File: 3-strspn.c
+ * Auth: For everyone who is  trying to learn sam.
+ */
+
+#include "main.h"
+
 /**
  * _strspn - Gets the length of a prefix substring.
  * @s: The string to be searched.
