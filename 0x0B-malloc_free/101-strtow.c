@@ -148,5 +148,5 @@ char **strtow(char *str)
 	{
 		return (NULL);
 	}
-	returm (m);
+	return (m);
 }
